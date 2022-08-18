@@ -95,7 +95,6 @@ img {
 .button-link {
     display: flex;
     margin: 1em 0;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
@@ -262,9 +261,7 @@ footer {
     display: block;
   }
 
-.menu-bar-link {
-    
-}
+
 
 
 /* ---Typography--- */
@@ -295,11 +292,6 @@ background-clip: text;
     font-weight: 700;
 }
 
-.fas {
-    font-weight: 700;
-    font-size: 1.8rem;
-
-}
 
 .menu-bar-link:hover {
     color: #72963c;
@@ -388,6 +380,10 @@ background-clip: text;
     color: #beb7b7;
 
 
+}
+
+.fa-bars {
+    font-size: 2rem;
 }
 
 /* ---Typography--- */

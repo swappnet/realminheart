@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Fonts 
+
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'Outfit', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    
+}
+
+.image {
+    
+    background-image:url(../main-page/images/main-background.png);
+    background-size: 300%;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    height: 40vh;
+   
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-article {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.avatar-img {
+    width: 120px;
+    padding-right: 1em;
+    
+
+}
+
+
+
+.container-header {
+    width: 80%;
+    padding: 1em 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.container-links {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.links-section {
+    background: #E1EFF8;
+    position: relative;
+}
+
+
+.navlinks {
+    display: none;
+}
+
+
+.button-link {
+    display: flex;
+    margin: 1em 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-gdrive {
+    background: #607C35;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 1em 1em;
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+
+}
+
+
+
+.button-discord {
+    background: #7B87A1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 1em 1em;
+    color: white;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    
+}
+
+.players-section {
+    background: #CBE3E7;
+    padding: 3rem 0;
+}
+
+
+.players-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.avatar-title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.head-box {
+    width: 100%;
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 1em;
+    background: #E5F2FA;
+    box-shadow: 7px 7px 20px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+.articles-section {
+    background: #E1EFF8;
+}
+
+.articles-container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    
+}
+
+.text-recent {
+    margin: 0 0 1rem 0;
+}
+
+.recent {
+    border-bottom: 2px solid #1B1A1A;
+    padding: 1rem 0 1rem 0;
+}
+
+.recent:last-child {
+    border:none;
+    padding: 1rem 0 1rem 0;
+}
+
+.info {
+    background: #CBE3E7;
+}
+
+
+.info-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+
+footer {
+    background: #708EA2;
+    height: 20vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 1rem;
+}
+/* ---Typography--- */
+
+h1 {
+font-weight: 700;
+font-size: 2.3rem;
+line-height: 3.1rem;
+margin-right: .5em;
+background: linear-gradient(180deg, #1B1A1A 0%, #D7BDC6 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.button-discord:hover {
+    background: #6e89c4;
+}
+
+.button-gdrive:hover {
+    background: #99cf49;
+}
+
+
+.menu-bar-link {
+    font-size: 2rem;
+    color: #87787E;
+    font-weight: 700;
+}
+
+.menu-bar-link:hover {
+    color: #72963c;
+}
+
+
+
+.head1-title {
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.3rem;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: -.4em;
+    color: #303030;
+}
+
+.head1-description {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: -0.045em;
+    
+    color: #303030;
+    
+    
+}
+
+
+.recent-title {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 2em;  
+    letter-spacing: 0.03em;
+    color: #303030;
+}
+
+.recent-description {
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1em;
+    margin-bottom: .5em;
+
+    color: #303030;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #303030;
+    font-size: 1.2rem;
+    
+}
+
+.info-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1em;
+    line-height: 1em;
+
+    color: #708EA1;
+
+
+}
+
+.copy {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #beb7b7;
+
+
+}
+
+/* ---Typography--- */
+
+
+@media (min-width: 767px) {
+    .navlinks {
+        display: flex;
+    }
+
+    .menu-bar-link  {
+        display: none;
+    }
+
+}
+

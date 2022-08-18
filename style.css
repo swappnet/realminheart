@@ -54,6 +54,9 @@ img {
 }
 
 
+header {
+    background: #DDEAF4;
+}
 
 .container-header {
     width: 80%;
@@ -62,6 +65,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     
 }
 
@@ -93,6 +97,10 @@ img {
     justify-content: space-between;
 }
 
+.xbox {
+    margin-top: .3em;
+}
+
 .button-gdrive {
     background: #3b8526;
     box-shadow: inset 0 4px #6bc349,inset 0 0px #2a631c,0 0px rgb(0 0 0 / 50%);
@@ -111,7 +119,6 @@ img {
 
 
 .button-discord {
-    background: #7B87A1;
     box-shadow: inset 0 4px #6bc349,inset 0 0px #2a631c,0 0px rgb(0 0 0 / 25%);
     background: #3b8526;
     padding: 1em 1em;
@@ -124,6 +131,21 @@ img {
     line-height: 1.2rem;
     text-align: center;
     
+    
+}
+
+.button-xbox-1, .button-xbox-2 {
+    background: #107C10;
+    color: #fff;
+    padding: 0.8em;
+    border-radius: 15px;
+    text-shadow: 0 1px 0 #2a631c;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    text-align: center;
 }
 
 .players-section {
@@ -191,6 +213,7 @@ img {
 
 .info {
     background: #CBE3E7;
+
 }
 
 
@@ -205,7 +228,7 @@ img {
 
 
 footer {
-    background: #708EA2;
+    background: #CBE3E7;
     height: 20vh;
     display: flex;
     align-items: end;
@@ -275,7 +298,7 @@ background: linear-gradient(180deg, #1B1A1A 0%, #D7BDC6 100%);
 background-clip: text;
 }
 
-.button-discord:hover {
+.button-discord:hover  {
     background: #99cf49;
     text-transform: uppercase;
     text-decoration: none;
@@ -287,6 +310,13 @@ background-clip: text;
     text-decoration: none;
     transition: all .25s,opacity .75s .5s;
 }
+
+.button-xbox-1:hover, .button-xbox-2:hover {
+    background: #3A3A3A;
+    text-decoration: none;
+    transition: all .25s,opacity .75s .5s;
+}
+
 
 
 .menu-bar-link {
@@ -370,7 +400,7 @@ background-clip: text;
     
 }
 
-.read-more:hover {
+.read-more:hover  {
     color: #52a535;
 }
 
@@ -392,7 +422,7 @@ background-clip: text;
     font-size: 16px;
     line-height: 19px;
 
-    color: #beb7b7;
+    color: #708EA1;
 
 
 }
@@ -408,7 +438,7 @@ background-clip: text;
     
 }
 
-.navlinks a:hover {
+.navlinks a:hover .navlinks a:active {
     text-decoration: none;
     color: #363636;
     text-decoration: none;
@@ -422,7 +452,14 @@ background-clip: text;
 }
 
 
-
+.recent-date {
+    color: #5f5f5f;
+    font-weight: 200;
+    font-family: 'Noto Sans';
+    font-size: .9rem;
+    text-align: right;
+    margin: .4em;
+}
 
 
 /* ---Typography--- */
@@ -489,6 +526,7 @@ background-clip: text;
     .articles-container {
         width: 1000px;
         flex-direction: column;
+        padding-top: 1em;
     }
 
     .recent {
@@ -497,6 +535,7 @@ background-clip: text;
         justify-content: space-between;
         width: 100%
     }
+
 
     .text-recent {
         width: 50%

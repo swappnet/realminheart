@@ -26,12 +26,12 @@ body {
 
 .image {
     
-    background-image:url(../main-page/images/main-background.png);
+    background-image:url(./images/main-background.png);
     background-size: 300%;
     background-position: 50% 10%;
     background-repeat: no-repeat;
     height: 40vh;
-    background-attachment: scroll
+  
    
 }
 

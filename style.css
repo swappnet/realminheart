@@ -26,7 +26,7 @@ body {
 
 .image {
     
-    background-image:url(./images/main-background.png);
+    background-image:url('./images/main-background.png');
     background-size: 300%;
     background-position: 50% 10%;
     background-repeat: no-repeat;

@@ -327,7 +327,7 @@ background-clip: text;
 
 
 .menu-bar-link:hover {
-    color: #363636;
+    color: #99cf49;
     transition: all .25s,opacity .75s .5s;
 }
 
@@ -438,7 +438,7 @@ background-clip: text;
     
 }
 
-.navlinks a:hover .navlinks a:active {
+.navlinks a:hover {
     text-decoration: none;
     color: #363636;
     text-decoration: none;

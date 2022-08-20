@@ -31,6 +31,7 @@ body {
     box-sizing: border-box;
     font-size: 1rem;
     font-family: 'Outfit', sans-serif;
+    background: #E1EFF8;
 
 }
 
@@ -63,7 +64,7 @@ img {
 
 
 header {
-    background: #DDEAF4;
+    background: transparent;
 }
 
 .container-header {
@@ -88,7 +89,6 @@ header {
 
 
 .links-section {
-    background: #E1EFF8;
     position: relative;
 }
 
@@ -206,6 +206,7 @@ header {
 
 .info {
     background: #b4ced3;
+    height: 5vh;
 
 }
 
@@ -214,8 +215,8 @@ header {
     margin: 0 auto;
     width: 90%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: start;
     padding: 1em 0;
 }
 
@@ -275,8 +276,8 @@ footer {
     margin: 0 auto;
     width: 70%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: top;
 }
 
 .footer-links {
@@ -457,10 +458,11 @@ h1 {
 .info-text {
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1em;
     color: #708EA1;
+    padding-bottom: 1em;
 
 
 }
@@ -616,7 +618,7 @@ h1 {
         margin: 0 auto;
         max-width: 1000px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -625,6 +627,18 @@ h1 {
         flex-direction: column;
         align-items: start;
         margin: .3em 0 1em 0;
+    }
+
+    .info-text {
+        font-family: 'Noto Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1em;
+        color: #708EA1;
+        padding-bottom: 1em;
+
+
     }
 
 }

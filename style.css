@@ -267,6 +267,42 @@ footer {
     margin: .3em 0 1em 0;
 }
 
+.edit-section {
+    margin: 1em auto;
+    padding: 0 0 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.edit-button {
+    padding: .5em 2em;
+    background-color: rgb(236, 215, 27);
+    border: 0.000002px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.add-button {
+    padding: .5em 2em;
+    background-color: rgb(42, 158, 51);
+    border: 0.000002px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
 /* ---Typography--- */
 
 .footer-links-header {
@@ -493,6 +529,18 @@ h1 {
 }
 
 
+.edit-button:hover {
+    background-color: rgb(184, 167, 22);
+    transition: all .25s, opacity .75s .5s;
+
+}
+
+.add-button:hover {
+    background-color: rgb(27, 104, 34);
+    transition: all .25s, opacity .75s .5s;
+}
+
+
 /* ---Typography--- */
 
 
@@ -506,9 +554,9 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        overflow: hidden;
 
     }
-
 
     .navlinks {
         display: flex;
@@ -561,19 +609,27 @@ h1 {
     .articles-container {
         max-width: 1000px;
         flex-direction: column;
-        padding-top: 1em;
+        margin-top: 1em;
     }
 
     .recent {
         display: flex;
         align-items: start;
         justify-content: space-between;
-        width: 100%
+        width: 100%;
+        padding: 2em 0 2em 0;
+        margin: 1em 0 1em 0;
     }
 
 
     .text-recent {
-        width: 50%
+        width: 50%;
+
+    }
+
+    .text2 {
+        order: 2;
+
     }
 
     .img-article {
@@ -582,7 +638,9 @@ h1 {
 
     .img-recent {
         width: 40%;
+
     }
+
 
     .info-container {
         max-width: 1000px;
@@ -617,4 +675,13 @@ h1 {
 
     }
 
+
+    .edit-section {
+        max-width: 1000px;
+        justify-content: flex-start;
+    }
+
+    .edit-button {
+        margin-right: 1.5em;
+    }
 }

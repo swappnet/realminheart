@@ -71,6 +71,10 @@ header {
   display: none;
 }
 
+nav {
+  margin-bottom: -1em;
+}
+
 .button-link {
   display: flex;
   margin: 1em 0;

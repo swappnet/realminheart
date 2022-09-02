@@ -17,12 +17,16 @@ body {
   background: #e1eff8;
 }
 
-.image {
+.image::after {
+  transition: background-image 1s linear;
   background-image: url("./images/main-background.png");
-  background-size: 300%;
+  background-size: cover;
   background-position: 50% 10%;
   background-repeat: no-repeat;
   height: 40vh;
+}
+
+.image::after {
 }
 
 img {

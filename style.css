@@ -63,6 +63,25 @@ header {
   justify-content: space-between;
 }
 
+#btn-back-to-top {
+  display: none;
+  font-family: "Noto Sans", sans-serif;
+  position: fixed;
+  right: 0.3rem;
+  bottom: 1rem;
+  background: #3b8526;
+  border: none;
+  padding: 1rem;
+  margin: 2rem;
+  color: white;
+  box-shadow: inset 0 4px #6bc349, inset 0 0px #2a631c, 0 0px rgb(0 0 0 / 25%);
+}
+
+#btn-back-to-top:hover {
+  background: #6bc349;
+  transition: all 0.25s, opacity 0.75s 0.5s;
+}
+
 .links-section {
   position: relative;
 }
@@ -77,9 +96,9 @@ nav {
 
 .button-link {
   display: flex;
-  margin: 1em 0;
+  margin: 2rem 0;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   outline: none;
 }
 
@@ -347,14 +366,14 @@ h1 {
 }
 
 .button-discord:hover {
-  background: #99cf49;
+  background: #6bc349;
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.25s, opacity 0.75s 0.5s;
 }
 
 .button-gdrive:hover {
-  background: #99cf49;
+  background: #6bc349;
   text-decoration: none;
   transition: all 0.25s, opacity 0.75s 0.5s;
 }
